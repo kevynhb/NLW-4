@@ -4,7 +4,7 @@ import { ChallengesContext } from '../contexts/ChallengeContext'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChallengesContext.Provider value={'teste1'}>
+    <ChallengesContext.Provider value={'teste'}>
       <Component {...pageProps} />
     </ChallengesContext.Provider>
   )
